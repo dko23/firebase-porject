@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=REM&family=Roboto:wght@500&display=swap');
 .App {
   text-align: center;
+   font-family: 'REM', sans-serif;
 }
 
 .App-logo {
@@ -35,4 +37,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.animate{
+  height: 150px;
+  width: 150px;
+  align-self: center;
 }
