@@ -135,9 +135,9 @@ function Login() {
         <h3> Register User</h3>
         
   <TextField
-  id="outlined-username-input"
   label="username"
-  type="text"
+                    type="text"
+                    value={registerEmail}
           placeholder='username' onChange={(e) => { setRegisterEmail(e.target.value) }}
           required
 />
@@ -145,9 +145,9 @@ function Login() {
         
 
 <TextField
-  id="outlined-password-input"
   label="password"
-  type="password"
+                    type="password"
+                    value={registerPassword}
           placeholder='password' onChange={(e) => { setRegisterPassword(e.target.value) }}
           required
 />
@@ -166,7 +166,8 @@ function Login() {
         <TextField
   id="outlined-password-input"
   label="username"
-  type="text"
+                    type="text"
+                    value={loginEmail}
  placeholder='username' onChange={(e)=>{setLoginEmail(e.target.value)}}
 />
 
@@ -175,7 +176,8 @@ function Login() {
 <TextField
   id="outlined-password-input"
   label="password"
-  type="password"
+                    type="password"
+                    value={loginPassword}
  placeholder='password' onChange={(e)=>{setLoginPassword(e.target.value)}}
 />
         <div>
